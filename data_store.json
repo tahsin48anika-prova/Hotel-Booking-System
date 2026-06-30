@@ -1,0 +1,543 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "email": "admin@hotel.com",
+      "name": "Executive Admin",
+      "role": "admin",
+      "createdAt": "2026-01-01",
+      "wishlist": []
+    },
+    {
+      "id": "u2",
+      "email": "user@hotel.com",
+      "name": "Charlotte Dupont",
+      "role": "user",
+      "createdAt": "2026-01-05",
+      "phone": "+33 6 1234 5678",
+      "wishlist": [
+        "h2"
+      ]
+    }
+  ],
+  "hotels": [
+    {
+      "id": "h1",
+      "name": "The Grand Zenith Palace",
+      "description": "Nestled in the heart of historic Paris, this legendary landmark combines classical 19th-century architecture with contemporary Parisian elegance. Featuring Michelin-starred dining, a subterranean spa, and breathtaking balconies looking directly onto the Eiffel Tower.",
+      "country": "France",
+      "city": "Paris",
+      "price": 480,
+      "rating": 4.9,
+      "reviewsCount": 142,
+      "image": "https://picsum.photos/seed/paris/1200/800",
+      "images": [
+        "https://picsum.photos/seed/paris1/1200/800",
+        "https://picsum.photos/seed/paris2/1200/800",
+        "https://picsum.photos/seed/paris3/1200/800"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Michelin Restaurant",
+        "Luxury Spa",
+        "Indoor Pool",
+        "24/7 Room Service",
+        "Eiffel Tower View",
+        "Valet Parking"
+      ],
+      "propertyType": "Hotel",
+      "guestCapacity": 4,
+      "address": "22 Avenue des Champs-Élysées, 75008 Paris",
+      "featured": true,
+      "category": "Luxury"
+    },
+    {
+      "id": "h2",
+      "name": "Aura Wellness Resort & Spa",
+      "description": "Suspended amidst the lush, emerald treetops of Ubud's jungle, Aura is a sanctuary of profound peace. Built around sacred volcanic springs, the resort features individual glass-walled villas, personal infinity pools, private yoga shalas, and Ayurvedic healing paths.",
+      "country": "Indonesia",
+      "city": "Bali",
+      "price": 360,
+      "rating": 4.8,
+      "reviewsCount": 98,
+      "image": "https://picsum.photos/seed/bali/1200/800",
+      "images": [
+        "https://picsum.photos/seed/bali1/1200/800",
+        "https://picsum.photos/seed/bali2/1200/800",
+        "https://picsum.photos/seed/bali3/1200/800"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Infinity Pool",
+        "Ayurvedic Spa",
+        "Jungle Views",
+        "Organic Restaurant",
+        "Yoga Deck",
+        "Airport Transfer"
+      ],
+      "propertyType": "Resort",
+      "guestCapacity": 2,
+      "address": "Jalan Raya Sanggingan, Ubud, Gianyar, Bali 80571",
+      "featured": true,
+      "category": "Wellness"
+    },
+    {
+      "id": "h3",
+      "name": "The Royal Worldora Stay Plaza",
+      "description": "Rising high above the Manhattan skyline, this architectural marvel offers unrivaled penthouse living. Designed by world-famous architects, it blends metropolitan boldness with high-society comforts, premium automation, and an exclusive sky bar.",
+      "country": "United States",
+      "city": "New York",
+      "price": 550,
+      "rating": 4.7,
+      "reviewsCount": 215,
+      "image": "https://picsum.photos/seed/newyork/1200/800",
+      "images": [
+        "https://picsum.photos/seed/ny1/1200/800",
+        "https://picsum.photos/seed/ny2/1200/800",
+        "https://picsum.photos/seed/ny3/1200/800"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Rooftop Sky Bar",
+        "State-of-the-art Gym",
+        "Executive Lounge",
+        "Business Center",
+        "Central Park Views",
+        "Valet Parking"
+      ],
+      "propertyType": "Hotel",
+      "guestCapacity": 6,
+      "address": "730 Fifth Avenue, New York, NY 10019",
+      "featured": true,
+      "category": "Boutique"
+    },
+    {
+      "id": "h4",
+      "name": "Sands of Oasis Reserve",
+      "description": "An absolute oasis of gilded luxury, situated on a secluded private peninsula in Dubai. Surrounded by temperature-controlled turquoise waters, guests enjoy custom-tailored Butler services, a private marine harbor, golden-sand beaches, and luxury helipad access.",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "price": 720,
+      "rating": 4.9,
+      "reviewsCount": 86,
+      "image": "https://picsum.photos/seed/dubai/1200/800",
+      "images": [
+        "https://picsum.photos/seed/dubai1/1200/800",
+        "https://picsum.photos/seed/dubai2/1200/800",
+        "https://picsum.photos/seed/dubai3/1200/800"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Private Beach",
+        "Butler Service",
+        "Marine Harbor",
+        "Helipad Access",
+        "Underwater Lounge",
+        "Infinity Pools"
+      ],
+      "propertyType": "Resort",
+      "guestCapacity": 4,
+      "address": "Palm Jumeirah Crescent, West Wing, Dubai",
+      "featured": true,
+      "category": "Luxury"
+    },
+    {
+      "id": "h5",
+      "name": "Sapphire Bay Marina Villa",
+      "description": "Perched majestically on the steep, sun-drenched volcanic cliffs of Santorini. This white-washed boutique villa cluster faces the mesmerizing caldera sunset, offering cave pools, dynamic private sun decks, and exquisite local gastronomic culinary journeys.",
+      "country": "Greece",
+      "city": "Santorini",
+      "price": 420,
+      "rating": 4.8,
+      "reviewsCount": 64,
+      "image": "https://picsum.photos/seed/greece/1200/800",
+      "images": [
+        "https://picsum.photos/seed/greece1/1200/800",
+        "https://picsum.photos/seed/greece2/1200/800",
+        "https://picsum.photos/seed/greece3/1200/800"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Cave Pools",
+        "Caldera Sunset Deck",
+        "Wine Cellar",
+        "Private Chef",
+        "Luxury Yacht Rental",
+        "Helipad"
+      ],
+      "propertyType": "Villa",
+      "guestCapacity": 2,
+      "address": "Oia Cliffside Walk, Santorini 84702",
+      "featured": false,
+      "category": "Boutique"
+    },
+    {
+      "id": "h6",
+      "name": "The Alpine Crest Chalet",
+      "description": "A masterclass in alpine luxury, crafted from ancient mountain stone and Swiss pine. Located in the high-elevation slopes of Zermatt, this ski-in, ski-out chalet offers absolute isolation under the majestic presence of the Matterhorn, along with luxury saunas.",
+      "country": "Switzerland",
+      "city": "Zermatt",
+      "price": 510,
+      "rating": 4.9,
+      "reviewsCount": 78,
+      "image": "https://picsum.photos/seed/swiss/1200/800",
+      "images": [
+        "https://picsum.photos/seed/swiss1/1200/800",
+        "https://picsum.photos/seed/swiss2/1200/800",
+        "https://picsum.photos/seed/swiss3/1200/800"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Ski-in/Ski-out Access",
+        "Heated Outdoor Jacuzzi",
+        "Matterhorn View",
+        "Finnish Sauna",
+        "Open Hearth Fireplace",
+        "Wine Vault"
+      ],
+      "propertyType": "Resort",
+      "guestCapacity": 8,
+      "address": "Riedweg 156, 3920 Zermatt",
+      "featured": false,
+      "category": "Luxury"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "r1",
+      "hotelId": "h1",
+      "name": "Champs-Élysées Deluxe Room",
+      "description": "An elegant, classically designed masterroom featuring a custom hand-carved king bed, luxury Italian marble bathroom, and expansive floor-to-ceiling windows overlooking the Avenue.",
+      "price": 480,
+      "bedType": "1 King Bed",
+      "capacity": 2,
+      "size": "42 m²",
+      "images": [
+        "https://picsum.photos/seed/room_paris_deluxe/800/600"
+      ],
+      "amenities": [
+        "WiFi",
+        "TV",
+        "Mini Bar",
+        "Bathrobe",
+        "Espresso Machine",
+        "Marble Bath"
+      ],
+      "availableCount": 4
+    },
+    {
+      "id": "r2",
+      "hotelId": "h1",
+      "name": "Eiffel View Executive Suite",
+      "description": "A breathtaking corner suite designed for executive relaxation. Features a private plush parlor, antique writing desk, and an outdoor balcony facing the Eiffel Tower.",
+      "price": 750,
+      "bedType": "1 Premium King Bed",
+      "capacity": 3,
+      "size": "75 m²",
+      "images": [
+        "https://picsum.photos/seed/room_paris_suite/800/600"
+      ],
+      "amenities": [
+        "WiFi",
+        "Rooftop Access",
+        "Private Balcony",
+        "Butler Service",
+        "Champagne on Arrival",
+        "Walk-in Wardrobe"
+      ],
+      "availableCount": 2
+    },
+    {
+      "id": "r3",
+      "hotelId": "h2",
+      "name": "Tropical Sanctuary Pavilion",
+      "description": "A glass-walled bamboo pavilion facing the dramatic sacred river gorge. Immersed in forest sounds, it comes with a private outdoor stone bathtub and daily wellness juices.",
+      "price": 360,
+      "bedType": "1 King Canopy Bed",
+      "capacity": 2,
+      "size": "60 m²",
+      "images": [
+        "https://picsum.photos/seed/room_bali_pavilion/800/600"
+      ],
+      "amenities": [
+        "WiFi",
+        "Outdoor Bath",
+        "Forest View",
+        "Daily Yoga Kit",
+        "Organic Fruit Basket",
+        "Premium Teas"
+      ],
+      "availableCount": 3
+    },
+    {
+      "id": "r4",
+      "hotelId": "h2",
+      "name": "Sacred Stream Infinity Villa",
+      "description": "The ultimate wellness haven. Features a sprawling timber deck, a private emerald plunge pool floating over the canyon, and an private outdoor massage pavilion.",
+      "price": 600,
+      "bedType": "1 Grand King Bed",
+      "capacity": 2,
+      "size": "110 m²",
+      "images": [
+        "https://picsum.photos/seed/room_bali_villa/800/600"
+      ],
+      "amenities": [
+        "WiFi",
+        "Private Pool",
+        "Massage Pavillion",
+        "24/7 Wellness Butler",
+        "Ayurvedic In-room Meals"
+      ],
+      "availableCount": 2
+    },
+    {
+      "id": "r5",
+      "hotelId": "h3",
+      "name": "Metropolitan Premium Room",
+      "description": "A sleek, contemporary room styled in urban charcoal and premium walnut. Features high-fidelity sound, dynamic lighting controls, and dynamic park vistas.",
+      "price": 550,
+      "bedType": "1 King Bed",
+      "capacity": 2,
+      "size": "40 m²",
+      "images": [
+        "https://picsum.photos/seed/room_ny_prem/800/600"
+      ],
+      "amenities": [
+        "WiFi",
+        "Smart Room Control",
+        "Bose Audio",
+        "Rain Shower",
+        "Premium Concierge Access"
+      ],
+      "availableCount": 5
+    },
+    {
+      "id": "r6",
+      "hotelId": "h3",
+      "name": "Fifth Avenue Skyline Penthouse",
+      "description": "The crown jewel of Fifth Avenue. Spans two levels with glass loft ceilings, double marble fireplaces, a private cocktail bar, and panoramic 360-degree city views.",
+      "price": 1200,
+      "bedType": "2 California King Beds",
+      "capacity": 4,
+      "size": "180 m²",
+      "images": [
+        "https://picsum.photos/seed/room_ny_penthouse/800/600"
+      ],
+      "amenities": [
+        "WiFi",
+        "Private Elevator",
+        "Wet Bar",
+        "Dual Marble Bathrooms",
+        "Helipad Pickup",
+        "Premium Security"
+      ],
+      "availableCount": 1
+    },
+    {
+      "id": "r7",
+      "hotelId": "h4",
+      "name": "Oceanic Vista Room",
+      "description": "Wake up to endless vistas of the Arabian Gulf. Built with custom Persian carpets and gilded gold leaf frames, including a private beach-level sun terrace.",
+      "price": 720,
+      "bedType": "1 Grand King Bed",
+      "capacity": 3,
+      "size": "65 m²",
+      "images": [
+        "https://picsum.photos/seed/room_dubai_ocean/800/600"
+      ],
+      "amenities": [
+        "WiFi",
+        "Beach Terrace",
+        "Pillow Menu",
+        "Gilded Bathroom",
+        "L'Occitane Amenities"
+      ],
+      "availableCount": 4
+    },
+    {
+      "id": "r8",
+      "hotelId": "h4",
+      "name": "Royal Sea Castle Suite",
+      "description": "The peak of regal Arabian hospitality. This sprawling suite offers a formal majlis dining room, master bedroom with rotating bed, and a private mosaic swimming pool.",
+      "price": 1500,
+      "bedType": "1 Presidential King Bed",
+      "capacity": 4,
+      "size": "240 m²",
+      "images": [
+        "https://picsum.photos/seed/room_dubai_royal/800/600"
+      ],
+      "amenities": [
+        "WiFi",
+        "Private Pool",
+        "Majlis Lounge",
+        "Private Chef",
+        "Bentley Airport Transfer"
+      ],
+      "availableCount": 1
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk1",
+      "userId": "u2",
+      "hotelId": "h1",
+      "roomId": "r2",
+      "checkIn": "2026-07-05",
+      "checkOut": "2026-07-10",
+      "guests": {
+        "adults": 2,
+        "children": 0
+      },
+      "guestName": "Charlotte Dupont",
+      "guestEmail": "charlotte@example.com",
+      "guestPhone": "+33 6 1234 5678",
+      "totalAmount": 3750,
+      "couponUsed": "WELCOME10",
+      "status": "confirmed",
+      "specialRequests": "Please prepare room temperature bottle of vintage champagne upon arrival.",
+      "createdAt": "2026-06-25T14:30:00.000Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev1",
+      "hotelId": "h1",
+      "userId": "u2",
+      "userName": "Charlotte Dupont",
+      "userAvatar": "https://picsum.photos/seed/user_charlotte/100/100",
+      "rating": 5,
+      "comment": "An absolute dream come true. The views of the Eiffel Tower from our room terrace were unforgettable, and the service was flawlessly elegant. The spa is a hidden sanctuary of bliss.",
+      "date": "2026-06-15",
+      "reply": "Dear Charlotte, we are thrilled to hear that your stay with us was so magical! We look forward to welcoming you back to your Parisian home.",
+      "helpfulCount": 12
+    },
+    {
+      "id": "rev2",
+      "hotelId": "h2",
+      "userId": "u3",
+      "userName": "Alexander Vance",
+      "userAvatar": "https://picsum.photos/seed/user_alex/100/100",
+      "rating": 5,
+      "comment": "Aura is not just a resort, it is a spiritual reset. Being suspended in the Ubud jungle while having a personal butler bring Ayurvedic dishes was heavenly. Highly recommend the massage.",
+      "date": "2026-06-20",
+      "helpfulCount": 8
+    },
+    {
+      "id": "rev3",
+      "hotelId": "h3",
+      "userId": "u4",
+      "userName": "Liam Henderson",
+      "userAvatar": "https://picsum.photos/seed/user_liam/100/100",
+      "rating": 4,
+      "comment": "Stunning penthouse and flawless automation system. The city views are legendary. The only minor setback was a slight delay in valet parking during rush hour, but the concierge handled it perfectly.",
+      "date": "2026-06-12",
+      "reply": "Hello Liam, thank you for your kind feedback. We've optimized our peak hour valet staffing to ensure instant response going forward.",
+      "helpfulCount": 5
+    }
+  ],
+  "blogs": [
+    {
+      "id": "b1",
+      "title": "10 Secret Culinary Spots in Paris Selected by Our Head Concierge",
+      "content": "Paris is a city of layers, where the finest gastronomic adventures are often tucked away in hidden alleyways, behind simple unmarked wooden doors, or within secluded inner courtyards. In this guide, our Chief Concierge reveals 10 highly exclusive culinary venues favored by true Parisian gourmands. From a clandestine speakeasy serving 1920s vintage champagne paired with black truffles, to a centuries-old bakery that still fires its ovens with oak wood, discover the elite secrets that make Paris the absolute capital of world gastronomy.",
+      "author": "Jean-Luc Moreau",
+      "date": "2026-06-01",
+      "image": "https://picsum.photos/seed/blog1/800/600",
+      "category": "Gastronomy",
+      "tags": [
+        "Paris",
+        "Food",
+        "Luxury Travel",
+        "Concierge Secrets"
+      ],
+      "readTime": "6 min read",
+      "views": 452
+    },
+    {
+      "id": "b2",
+      "title": "The Ultimate Guide to Ayurvedic Healing Journeys in Sacred Ubud",
+      "content": "The jungle sanctuaries of Bali have long been magnetic portals for renewal, healing, and spiritual recalibration. True luxury is no longer defined merely by materials, but by inner tranquility and physical harmony. Ubud is the epicenter of this modern renaissance. Our comprehensive guide takes you deep into the ancient philosophy of Ayurveda, exploring custom dosha mapping, volcanic spring purification ceremonies, breathwork patterns in bamboo forest structures, and targeted botanical therapies that restore complete systemic balance.",
+      "author": "Ananda Devi",
+      "date": "2026-06-10",
+      "image": "https://picsum.photos/seed/blog2/800/600",
+      "category": "Wellness",
+      "tags": [
+        "Bali",
+        "Ayurveda",
+        "Mindfulness",
+        "Spa Resorts"
+      ],
+      "readTime": "8 min read",
+      "views": 310
+    },
+    {
+      "id": "b3",
+      "title": "Architectural Marvels: Reinventing the Classic Metropolitan Penthouse",
+      "content": "Metropolitan skylines are changing at a blinding pace, driven by a new class of design visionaries who reject conventional horizontal boxes. Today's elite penthouses are masterpiece-level monuments of structural art. We explore the design principles of the world's most dramatic sky mansions—examining the integration of double-height structural glass sails, automated indoor botanic gardens, suspended cantilever pools that hang directly over bustling city streets, and robust custom security environments.",
+      "author": "Marcus Sterling",
+      "date": "2026-06-18",
+      "image": "https://picsum.photos/seed/blog3/800/600",
+      "category": "Design",
+      "tags": [
+        "New York",
+        "Architecture",
+        "Luxury Living",
+        "Penthouses"
+      ],
+      "readTime": "5 min read",
+      "views": 289
+    }
+  ],
+  "coupons": [
+    {
+      "code": "WELCOME10",
+      "discountType": "percent",
+      "value": 10,
+      "active": true
+    },
+    {
+      "code": "LUXURY100",
+      "discountType": "fixed",
+      "value": 100,
+      "active": true
+    },
+    {
+      "code": "SUMMER25",
+      "discountType": "percent",
+      "value": 25,
+      "active": true
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg1",
+      "name": "Isabella Rossi",
+      "email": "isabella@example.com",
+      "phone": "+39 333 444 5555",
+      "subject": "Exclusive Wedding Venue Booking Inquiry",
+      "message": "We are planning a highly exclusive private wedding ceremony for 80 guests next spring. We would love to enquire about reserving the complete villa cluster at Sapphire Bay in Santorini, Greece. Could you please send your corporate luxury wedding brochure and chef menus?",
+      "status": "unread",
+      "createdAt": "2026-06-28T09:15:00.000Z"
+    }
+  ],
+  "subscribers": [],
+  "settings": {
+    "logoText": "WORLDORA STAY",
+    "brandName": "Worldora Stay",
+    "tagline": "Luxury Hotels • Best Prices • Easy Booking Worldwide",
+    "primaryColor": "#0F172A",
+    "secondaryColor": "#D97706",
+    "footerText": "Experience ultimate comfort and prestige. Our curated selection of handpicked world-class properties guarantees an unparalleled escape.",
+    "heroTitle": "Find Your Next Haven of Ultimate Luxury",
+    "heroSubtitle": "Discover prestigious destinations, bespoke services, and handpicked luxury resorts tailored to your sophisticated taste.",
+    "contactPhone": "+1 (800) 555-7000",
+    "contactEmail": "reservations@worldorastay.com",
+    "contactAddress": "777 Prestige Way, Manhattan, New York, NY 10001",
+    "socialLinks": {
+      "facebook": "https://facebook.com",
+      "instagram": "https://instagram.com",
+      "twitter": "https://twitter.com",
+      "linkedin": "https://linkedin.com"
+    }
+  }
+}

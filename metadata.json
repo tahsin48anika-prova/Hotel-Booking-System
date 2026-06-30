@@ -1,0 +1,6 @@
+{
+  "name": "Worldora Stay",
+  "description": "An international premium luxury hotel booking website with a full CMS, admin dashboard, complete booking flow, and integrated Gemini AI Travel Assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
